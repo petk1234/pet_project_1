@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="rus">
+    <head>
+        <!--
+            The following 2 meta tags must come first in the <head>
+            to consistently ensure proper document rendering.
+            Any other head element should come after these tags.
+        -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- Page title -->
+        <title>Gulp boilerplate</title>
+
+        <!-- Short description of the document (limit to 150 characters) -->
+        <meta name="description" content="Page description" />
+
+        <!-- Social metatags -->
+        <meta property="og:title" content="Unique page title" />
+        <meta property="og:description" content="Page description" />
+        <meta property="og:image" content="https://www.mywebsite.com/image.jpg" />
+        <meta property="og:image:alt" content="Image description" />
+        <meta property="og:locale" content="en_GB" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.mywebsite.com/page" />
+        <meta name="twitter:card" content="summary_large_image" />
+
+        <!-- Theme Color for Chrome, Firefox OS and Opera -->
+        <meta name="theme-color" content="#000000" />
+
+        <!-- SVG favicon for modern browsers. -->
+        <link rel="icon" href="/images/favicon.svg" type="image/svg+xml" />
+
+        <!-- The 180×180px icon Apple devices will use if you add the page to your home screen. -->
+        <link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
+
+        <!-- Prevent SEO issues caused by duplicate content by specifying the original source for pages that are available on multiple URLs. -->
+        <link rel="canonical" href="https://www.mywebsite.com/page" />
+        <!-- inject:css -->
+        <link rel="stylesheet" href="css/index.min.css">
+        <!-- endinject -->
+    </head>
+
+    <body>
+        <header class="header">
+            <div class="wrapper">
+                <div class="menu-logo">
+                    <a href="" class="ref-logo">
+                        <img src="../images/header_images/point.svg" alt="logo icon" class="img-logo">
+                    </a>
+                </div>
+                <nav class="navigation">
+                    <ul class="menu-items">
+                        <li class="menu-item">
+                            <a href="#" class="item-ref">О приложении</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#" class="item-ref">Преимущества</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#" class="item-ref">Наши психологи</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#" class="item-ref">Скачать приложение</a>
+                        </li>
+                    </ul>
+                    <div class="iphone-wrapper">
+                      <img src="../images/header_images/vector.svg" alt="" class="nav-iphone">
+                      <ul class="sub-menu">
+                          <li class="sub-item">
+                              <a href="#" class="sub-ref">О приложении</a>
+                          </li>
+                          <li class="sub-item">
+                              <a href="#" class="sub-ref">Преимущества</a>
+                          </li>
+                          <li class="sub-item">
+                              <a href="#" class="sub-ref">Наши психологи</a>
+                          </li>
+                          <li class="sub-item">
+                              <a href="#" class="sub-ref">Скачать приложение</a>
+                          </li>
+                      </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main class="info">
+          <div class="info-wrapper">  
+            <section class="help-link">
+                <article class="video">
+                    <div class="video-middleware">
+                      <video class="videoEl" src="#"></video>
+                      <button class="mute-button"></button>
+                    </div>
+                </article>
+               <div class="help-info">
+                   <h1 class="help-title">
+                       <span class="span-theme"> Связь с психологом,</span> 
+                       <span class="span-notheme">когда она необходима</span>
+                    </h1>
+                    <p class="help-text">Аудио - и видеоконсультации в одном удобном приложении</p>
+                   <button class="buy-help">Выбрать специалиста</button>
+                   <button class="free-help">Попробовать бесплатно</button>
+               </div>
+            </section>
+
+            <section class="app-actions">
+                <div class="app-actions-header">
+                    <h1 class="help-title">
+                        <span class="span-theme">Удобно</span>
+                        <span class="span-notheme">и просто</span>
+                    </h1>
+                    <p class="help-text modified">
+                        Point — это современное приложение, в котором вы можете получить психологическую поддержку, когда и где вам удобно.
+                    </p>
+                </div>
+                <ul class="app-actions-info">
+
+                    <li class="app-actions-item">
+                        <div class="app-iphone-wrapper1">
+                          <picture>
+                            <source media="(min-device-width: 1366px)" srcset="../images/main_images/app_images/iphone_1_big.png" class="app-actions-img1">
+                            <source media="(min-device-width: 320px)" srcset="../images/main_images/app_images/iphone_1.png" class="app-actions-img1">
+                            <img src="../images/main_images/app_images/iphone_1.png"  alt="a head carved out of wood" class="app-actions-img1">
+                          </picture>
+                        </div>
+                        <div class="relative-container1">
+                            <div class="absolute-container1">  
+                            <h2 class="app-actions-title">Установите приложение</h2>
+                            <p class="app-actions-text1">Скачайте приложение на ваш смартфон и пройдите быструю регистрацию.</p>
+                            <div class="app-button-container">
+                                <button class="apple-store"></button>
+                                <button class="play-market"></button>
+                            </div>
+                          </div>
+                        <div>
+                    </li>
+
+                    <li class="app-actions-item">
+                        <div class="app-iphone-wrapper2">
+                            <picture>
+                                <source media="(min-device-width: 1366px)" srcset="../images/main_images/app_images/iphone_2_big.png" class="app-actions-img2">
+                                <source media="(min-device-width: 320px)" srcset="../images/main_images/app_images/iphone_2.png" class="app-actions-img2">
+                                <img src="../images/main_images/app_images/iphone_2.png"  alt="a head carved out of wood" class="app-actions-img2">
+                              </picture>
+                        </div>
+                        <div class="relative-container2">
+                          <div class="absolute-container2"> 
+                            <h2 class="app-actions-title">Выберите специалиста</h2>
+                            <p class="app-actions-text2">Просматривайте профили психологов и выбирайте наиболее подходящих по квалификации, рейтингу, цене и запросам, с которыми они работают.</p>
+                          </div>
+                        </div>
+                    </li>
+
+                    <li class="app-actions-item">
+                        <div class="app-iphone-wrapper3">
+                            <picture>
+                                <source media="(min-device-width: 1366px)" srcset="../images/main_images/app_images/iphone_3_big.png" class="app-actions-img3">
+                                <source media="(min-device-width: 320px)" srcset="../images/main_images/app_images/iphone_3_copy.png" class="app-actions-img3">
+                                <img src="../images/main_images/app_images/iphone_3_copy.png"  alt="a head carved out of wood" class="app-actions-img3">
+                            </picture>
+                        </div>
+                        <div class="relative-container3">
+                          <div class="absolute-container3">
+                            <h2 class="app-actions-title">Позвоните психологу</h2>
+                            <p class="app-actions-text3">Если психолог онлайн, значит он готов помочь сейчас, без предварительной договоренности и согласования.</p>
+                            <div class="app-button-container">
+                              <button class="apple-store"></button>
+                              <button class="play-market"></button>
+                            </div>
+                          </div>
+                        </div>  
+                    </li>
+                </ul>
+            </section>
+          </div>
+        </main>
+        <!-- inject:js -->
+        <!-- endinject -->
+    </body>
+</html>

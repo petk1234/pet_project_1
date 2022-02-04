@@ -1,0 +1,144 @@
+.info{
+    height: 3500px;
+    margin-top: $iphoneHeightMenu;
+    padding: 0;
+    @media screen and (min-device-width: 1366px) {
+        margin-top: $desktopHeightMenu + 100;
+    }
+}
+.info-wrapper{
+    width: 320px;
+    margin: auto;
+    padding: 0;
+    @media screen and (min-device-width: 1366px) {
+        width: $headerDesktopWidth +236;
+    }
+}
+.info-wrapper, .help-link{
+    @media screen and (min-device-width: 1366px) {
+        height: 365px;
+    }
+}
+.help-link{
+    @media screen and (min-device-width: 1366px) {
+        max-width: $headerDesktopWidth;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        position: relative;
+        margin-top: 100px;
+    }
+}
+.video{
+    width: 320px;
+    margin: auto;
+    // border-bottom-right-radius: 50% 19%;
+    // border-bottom-left-radius: 50% 19%;
+    // position: relative;
+    // background: #89b8ff;
+    @media screen and (min-device-width: 1366px) {
+      margin: 0;
+      position: absolute;
+      left: 44%;
+    }
+}
+.video, .videoEl{
+    width: 320px;
+    height: 192px;
+    @media screen and (min-device-width: 1366px) {
+        width: 645px;
+        height: 362px;
+    }
+}
+.video-middleware{
+    width: 320px;
+    height: 192px;
+    margin: auto;
+    border-bottom-right-radius: 50% 19%;
+    border-bottom-left-radius: 50% 19%;
+    position: relative;
+    background: #89b8ff;
+    @media screen and (min-device-width: 1366px) {
+        // border-bottom-right-radius: 50% 19%;
+        // border-bottom-left-radius: 50% 19%;
+        // position: relative;
+        // background: #89b8ff;
+        width: 594px;
+        height: 362px;
+        margin: auto;
+    }
+}
+.videoEl{
+    position: absolute;
+}
+.mute-button{
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    left: 85%;
+    top: 70%;
+    background: no-repeat center url("../images/main_images/help_images/mute.svg");
+    border-radius: 50%;
+    border: 0px;
+    @media screen and (min-device-width: 1366px) {
+        height: 45px;
+        width: 45px;
+        background: no-repeat center url("../images/main_images/help_images/mute_big.svg");
+    }
+}
+.help-info{
+    width: 271px;
+    height: 235px;
+    margin: auto;
+    @media screen and (min-device-width: 1366px) {
+        margin: 0;
+        position: absolute;
+        width: 472px;
+        height: 350px;
+    }
+}
+.help-title{
+    margin-top: 60px;
+    @media screen and (min-device-width: 1366px) {
+      margin-top: 0;
+      font-size: 41px;
+    }
+}
+.span-theme{
+    color: $spanThemeInfo;
+}
+.span-notheme{
+    color: $spanNoThemeInfo;
+}
+.help-text{
+    color: #00325A;
+    font-size: 15px;
+    width: 220px;
+    line-height: 20px;
+    @media screen and (min-device-width: 1366px) {
+        font-size: 25px;
+        width: 374px;
+        line-height: 39px;
+    }
+}
+.buy-help, .free-help{
+    width: 227px;
+    height: 40px;
+    @media screen and (min-device-width: 1366px) {
+        width: 291px;
+        height: 52px;
+    }
+}
+.buy-help{
+    margin-bottom: 14px;
+    background: #226699;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 14px;
+}
+.free-help{
+    background: #fff;
+    color: #6DA4CD;
+    border: 2px solid #C6E1F6;
+    border-radius: 4px;
+}

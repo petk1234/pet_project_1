@@ -1,0 +1,12 @@
+/*
+ * Import all top level partials here
+ */
+@import 'base/fonts';
+@import 'base/scaffolding';
+@import 'normilize';
+@import 'header';
+@import 'main_styles/help_section';
+@import 'main_styles/app_actions_section';
+body {
+    background-color: #fff;
+}

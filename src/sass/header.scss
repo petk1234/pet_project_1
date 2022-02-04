@@ -1,0 +1,101 @@
+$navThemeColor: #093636;
+$headerIphoneWidth: 275px;
+$headerDesktopWidth: 1130px;
+$widthSubItem: 190px;
+$iphoneHeightMenu: 57px;
+$desktopHeightMenu: 95px;
+
+$spanThemeInfo: #093636;
+$spanNoThemeInfo: #2972ad;
+header{
+    width: 100%;
+    border-bottom: 1px solid #E1F0EE;
+    position: fixed;
+    z-index: 3;
+    background-color: #fff;
+}
+.wrapper{
+    max-width: $headerIphoneWidth;    
+    height: $iphoneHeightMenu;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    @media screen and (min-device-width: 1366px) {
+       max-width: $headerDesktopWidth;
+       height: $desktopHeightMenu;
+    }
+}
+.menu-logo, .img-logo{
+    width: 70px;
+    height: 32px;
+    @media screen and (min-device-width: 1366px) {
+      width: 105px;
+      height: 48px;     
+    }
+}
+.navigation{
+    width: 20px;
+    height: 20px;   
+    @media screen and (min-device-width: 1366px){
+        width: 840px;
+    }
+}
+.menu-items{
+    display: none;   
+    @media screen and (min-device-width: 1366px){
+        width: 840px;
+        display: flex;
+        margin: 0;
+        justify-content: space-between;
+     }
+}
+.menu-item, .sub-item{
+    list-style: none;
+}
+.item-ref, .sub-ref{
+    text-decoration: none;
+    color: $navThemeColor;
+    font-size: 18px;
+}
+.iphone-wrapper{
+    width: 19px;
+    height: 16px; 
+    @media screen and (min-device-width: 1366px) {
+        display: none;
+    }
+}
+.nav-iphone, .iphone-wrapper{
+    width: 19px;
+    height: 16px;  
+}
+.sub-menu{
+    display: none;
+    position: absolute;
+    z-index: 2;
+    width: $widthSubItem - 30px;
+    right: 10px;
+    background-color: #fff;
+    margin-top: 0;
+}
+.sub-item{
+    height: 37px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin-bottom: 1px;
+    background-color: rgba($navThemeColor, 0.07);
+    text-align: center;
+    position: relative;
+}
+.sub-item:last-child{
+    margin-bottom: 10;
+}
+.sub-ref{
+    position: absolute;
+    width: $widthSubItem;
+    transform: translateX(-50%) translateY(50%);
+    font-size: 14px;
+}
+.iphone-wrapper:hover > .sub-menu{
+    display: block;
+}

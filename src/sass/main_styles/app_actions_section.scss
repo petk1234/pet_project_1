@@ -1,0 +1,243 @@
+.app-actions{
+    @media screen and(min-device-width: 1366px) {
+        position: relative;
+        max-width: 1366px;
+        // margin: auto;
+    }
+}
+.app-actions-header{
+    width: 280px;
+    margin: auto;
+    @media screen and(min-device-width: 1366px) {
+        position: absolute;
+        width: 480px;
+        left: 113px;
+        top: 40px;
+    }
+}
+.modified{
+    width: 280px;
+    @media screen and (min-device-width: 1366px) {
+        width: 480px;
+    }
+}
+.app-actions-info{
+    list-style: none;
+    width: 320px;
+    margin-top: 50px;
+   // text-align: center;
+   padding: 0;
+    @media screen and(min-device-width: 1366px) {
+        width: 1366px;
+        height: 2500px;
+        margin-top: 145px;
+    }
+}
+.app-actions-item{
+    margin-bottom: 51px;
+    padding: 0;
+    @media screen and(min-device-width: 1366px) {
+        width: 1366px;
+        position: relative;
+        height: 590px;
+        margin-bottom: 70px;
+        width: 1366px
+    }
+}
+.relative-container{
+    // position: absolute;
+    // bottom: 100px;
+    &1{
+      @media screen and (min-device-width: 1366px) {
+        height: 560px;
+        width: 1366px;
+        position: relative;
+        text-align: start;
+      }
+    }
+    &2{
+        @media screen and (min-device-width: 1366px) {
+            position: relative;
+            height: 550px;
+            width: 1366px;
+            text-align: start;
+        }  
+    }
+    &3{
+        @media screen and (min-device-width: 1366px) {
+          height: 560px;
+          width: 600px;
+          position: relative;
+          text-align: start;
+        }
+    }
+}
+.absolute-container{
+    &1{
+      @media screen and (min-device-width: 1366px) {
+        position: absolute;
+        top: 63%;
+        left: 113px;
+        width: 500px;
+        height: 245px;
+      }
+    }
+    &2{
+        @media screen and (min-device-width: 1366px) {
+            position: absolute;
+            top: 40%;
+            left: 60%;
+            width: 460px;
+            height: 245px;
+    }
+    }
+    &3{
+        @media screen and (min-device-width: 1366px) {
+            position: absolute;
+            top: 32%;
+            left: 113px;
+            width: 500px;
+            height: 272px;
+    }
+    }
+}
+.app-iphone-wrapper{
+    // position: relative;
+    width: 320px;
+    &1{
+      position: relative;
+      height: 366px;
+      @media screen and (min-device-width: 1366px) {
+          position: absolute;
+          max-height: 714px;
+          right: 0;
+          width: 711px;
+       }
+    }
+    &2{
+       position: relative; 
+       height: 417px;
+       @media screen and (min-device-width: 1366px) {
+          position: absolute;
+          width: 715px;
+          height: 697px;
+        }
+    }
+    &3{
+        position: relative;
+        height: 366px;
+        @media screen and (min-device-width: 1366px) {
+            position: absolute;
+            width: 810px;
+            height: 775px;
+            right: 0;
+            bottom: -40px;
+        }
+    }
+}
+.app-actions{
+   &-img1{
+       width: 313px;
+       height: 366px;
+       position: absolute;
+       left: 7px;
+       @media screen and (min-device-width: 1366px) {
+           //left: 700px;
+           position: static;
+           width: 711px;
+           height: 714px;
+       }
+   }
+   &-img2{
+       width: 320px;
+       height: 417px;
+       @media screen and (min-device-width: 1366px) {
+           left: 700px;
+           width: 715px;
+           height: 697px;
+        }
+   }
+   &-img3{
+       width: 320px;
+       height: 366px;
+       @media screen and (min-device-width: 1366px) {
+          position: static;
+          width: 810px;
+          height: 775px;
+        }
+   }
+}
+.app-actions-text1, .app-actions-text2, .app-actions-text3{
+    width: 293px;
+    font-size: 15px;
+    margin: auto;
+    color: #00325A;
+    @media screen and (min-device-width: 1366px) {
+        font-size: 25px;
+        margin: 0;
+        height: 66px;
+    }
+}
+.app-actions-text{
+    &1{
+       @media screen and (min-device-width: 1366px) {
+          width: 480px;
+       }
+    }
+    &2{
+       @media screen and (min-device-width: 1366px) {
+           width: 460px;
+           height: 138px;
+       }
+    }
+    &3{
+       @media screen and (min-device-width: 1366px) {
+         width: 482px;
+         height: 103px;
+       }
+    }
+}
+.app-actions-title{
+    height: 20px;
+    font-size: 18px;
+    margin-top: 50px;
+    color: $navThemeColor;
+    @media screen and (min-device-width: 1366px) {
+        font-size: 32px;
+        margin: 0;
+        height: 31px;
+        margin-bottom: 38px;
+    }
+}
+.app-button-container{
+    width: 280px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 25px;
+    @media screen and (min-device-width: 1366px) {
+        width: 416px;
+        margin: 0;
+        margin-top: 40px;
+    }
+}
+.apple-store, .play-market{
+    width: 135px;
+    height: 41px;
+    @media screen and (min-device-width: 1366px) {
+        width: 200px;
+        height: 60px;
+    }
+}
+.apple-store{
+    background: no-repeat center url(../images/main_images/app_images/appstore_jpg.jpg);
+    @media screen and (min-device-width: 1366px) {
+        background: no-repeat center url(../images/main_images/app_images/appstore_big.png);
+    }
+}
+.play-market{
+    background: no-repeat center url(../images/main_images/app_images/playmarket_jpg.jpg);
+    @media screen and (min-device-width: 1366px) {
+        background: no-repeat center url(../images/main_images/app_images/playmarket-big.png);
+    }
+}
